@@ -52,9 +52,9 @@ border-top: 3px solid lightgray; border-bottom:3px solid lightgray; ;}
 #li>ul>li{width: 255.55px; padding: 20px; display: inline-block; text-align: center;
 background:#a77f64; color: #fff;  border-radius: 5px;}
 #li>ul>li>a{color: #fff; font-size: 18px;}
+#li>ul>li:hover{opacity: 0.9;}
 
-
-#b1{width: 1150px; height: 16000px; margin: 0 auto; text-align: center; font-size: large;}
+#b1{width: 1150px; height: 6000px; margin: 0 auto; text-align: center; font-size: large;}
 #b1> #text1{ font-size: 25px; font-family:"문체부 바탕체"; margin: 300px 0 100px 0;}
 
 #b1> #text2{ font-size: 40px; font-family:"Monotype Corsiva"; margin-bottom: 40px;}
@@ -79,4 +79,37 @@ background:#a77f64; color: #fff;  border-radius: 5px;}
 #b1>img:nth-of-type(6){width: 1000px; border-radius: 15px;}
 
 #b1>p:nth-of-type(7){width: 800px; margin: 0 auto; line-height: 30px;}
+
+
+#view{width: 1160px; height: 2000px; margin: 0 auto;}
+#view>h3{margin: 40px 0;}
+#view>#view1{width: 1160px; height: 200px; display: flex; margin: 0 auto;}
+#view>#view1 img{width: 140px; height: 130px; border-radius: 0 10px 10px 10px; margin: 13px;}
+#view>#view2{text-align: right;}
+#view>#view2>a{color: gray; margin: 15px;}
+#view>#view2>a:nth-of-type(1){color: #222;}
+
+#view>form>table{width: 1160px;}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
