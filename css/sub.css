@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+*{color:#222;}
 section{width: 1200px; height: auto; margin: 0 auto;}
 #top>ul>li{float: left; padding-right: 10px;}
 #top>ul>li>a{color: gray; }
@@ -21,12 +21,12 @@ section{width: 1200px; height: auto; margin: 0 auto;}
 #sub2{float: right; margin-right:40px ;}
 
 
-table th, table td{height: 50px;}
-table td{width: 50%;}
-table tr:last-of-type td{vertical-align: bottom; padding-bottom: 40px;}
-table th{font-size: 25px; padding: 20px 0 10px 0; }
+#sub2>table th, table td{height: 50px;}
+#sub2>table td{width: 50%;}
+#sub2>table tr:last-of-type td{vertical-align: bottom; padding-bottom: 40px;}
+#sub2>table th{font-size: 25px; padding: 20px 0 10px 0; }
 
-table{width: 500px; margin: 40px 0 20px 0;
+#sub2>table{width: 500px; margin: 40px 0 20px 0;
 border-top: 3px solid lightgray; border-bottom:3px solid lightgray; ;}
 #select{width: 200px;}
 
@@ -49,10 +49,12 @@ border-top: 3px solid lightgray; border-bottom:3px solid lightgray; ;}
 
 #a1>div>a{text-align: center; color: #444; }
 
-#li>ul>li{width: 255.55px; padding: 20px; display: inline-block; text-align: center;
-background:#a77f64; color: #fff;  border-radius: 5px;}
-#li>ul>li>a{color: #fff; font-size: 18px;}
-#li>ul>li:hover{opacity: 0.9;}
+.li>ul>li{width: 24.6%; padding: 20px; display: inline-block; text-align: center;
+background:#a77f64; color: #fff;  border-radius: 5px; box-sizing: border-box;}
+.li>ul>li>a{color: #fff; font-size: 18px;}
+.li>ul>li:hover{opacity: 0.9;}
+.li .active{border:1px solid #a77f64; background: none;}
+.li .active>a{color:#a77f64;}
 
 #b1{width: 1150px; height: 6000px; margin: 0 auto; text-align: center; font-size: large;}
 #b1> #text1{ font-size: 25px; font-family:"문체부 바탕체"; margin: 300px 0 100px 0;}
@@ -81,19 +83,35 @@ background:#a77f64; color: #fff;  border-radius: 5px;}
 #b1>p:nth-of-type(7){width: 800px; margin: 0 auto; line-height: 30px;}
 
 
-#view{width: 1160px; height: 2000px; margin: 0 auto;}
-#view>h3{margin: 40px 0;}
+#view{width: 1160px; height: 1150px; margin: 0 auto; text-align: center;}
+#view>h3{margin: 40px 0; text-align: left;}
 #view>#view1{width: 1160px; height: 200px; display: flex; margin: 0 auto;}
 #view>#view1 img{width: 140px; height: 130px; border-radius: 0 10px 10px 10px; margin: 13px;}
 #view>#view2{text-align: right;}
 #view>#view2>a{color: gray; margin: 15px;}
 #view>#view2>a:nth-of-type(1){color: #222;}
 
-#view>form>table{width: 1160px;}
- 
+#view>form>table{width: 1160px;  border-top: 1px solid gray; border-bottom: 1px solid; margin: 0 0 30px 0;}
+#view>form>table>tr>th{width: 210px; padding: 10px 0;}
+
+#view>form>table tr:nth-of-type(1){height: 40px; background: lightgray;}
+#view>form>table tr{text-align: center;} 
 
 
+#qa{width: 1160px; height: 600px; margin: 0 auto; text-align:center ;}
+#qa>h3{text-align: left;}
+#qa>table{width:1160px; border-top: 1px solid #222;; border-bottom: 1px solid #222; text-align: center;}
+#qa>table>tbody>tr>th{background: lightgray; height: 40px;}
 
+#delivery{width: 1160px; height: 1000px; margin: 0 auto;}
+#delivery>table{width: 1160px; border:1px solid #222;  margin: 10px; border-collapse: collapse;}
+#delivery>table tr>td{border: 1px solid #222; padding-left: 10px;}
+#delivery>table tr>td:nth-of-type(1){width: 350px;}
+#delivery>table:first-of-type tr:nth-of-type(4)>td:nth-of-type(2){height: 60px;}
+#delivery>table tr>td ul{padding: 10px 0;}
+#delivery>#t1{width: 1160px; height: 400px; margin: 0 auto;}
+
+#delivery>h3{margin:50px 0 30px 0;}
 
 
 
